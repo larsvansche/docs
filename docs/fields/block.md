@@ -21,7 +21,7 @@ The configuration of a Block field consists of a few parts:
  - A `fields` key, that contains one or more block sections.
  - Each section has a required label, and again a `fields` key.
  - Under these `fields`, there can be one or more common fields like `text`,
-   `image`, `html` and `select`.
+   `image`, `html` and `select`. These field names can't be the same as the field name for their parent block (described in the first item of this list). 
 
 A straighforward example can look like this:
 
